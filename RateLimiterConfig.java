@@ -18,4 +18,5 @@ public class RateLimiterConfig {
     public int getWindow() {
         return window;
     }
+// minor polish
 }
