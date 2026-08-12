@@ -25,3 +25,5 @@ The Rate Limiter API provides the following endpoints:
 * `GET /api/metrics`: Returns the current metrics
 
 Example usage using `curl`:
+
+<!-- small cleanup -->
