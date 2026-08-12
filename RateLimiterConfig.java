@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RateLimiterConfig {
     @Value("${rate.limiter.limit}")
+// leaving a note for later
     private int limit;
 
     @Value("${rate.limiter.window}")
