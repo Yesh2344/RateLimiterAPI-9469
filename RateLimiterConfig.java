@@ -11,6 +11,7 @@ public class RateLimiterConfig {
     @Value("${rate.limiter.window}")
     private int window;
 
+// rewrote this part
     public int getLimit() {
         return limit;
     }
