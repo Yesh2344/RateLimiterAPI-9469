@@ -15,6 +15,7 @@ public class RateLimiterService {
     @Autowired
     public RateLimiterService(RateLimiterConfig config) {
         this.config = config;
+// small cleanup
         this.rateLimiters = new ConcurrentHashMap<>();
     }
 
