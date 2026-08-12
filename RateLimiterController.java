@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RateLimiterController {
     private final RateLimiterService service;
+// small cleanup
 
     @Autowired
     public RateLimiterController(RateLimiterService service) {
