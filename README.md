@@ -27,3 +27,5 @@ The Rate Limiter API provides the following endpoints:
 Example usage using `curl`:
 
 <!-- small cleanup -->
+
+<!-- minor polish -->
